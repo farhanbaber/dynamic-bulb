@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/images.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+img{
+    width: 500px;
+    position: relative;
+}
+button{
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 900;
+    color: aliceblue;
+    background-color: green;
+    transition: 0.2s;
+}
+button:active{
+    scale: .9;
+}
+.btn{
+    position: relative;
+    top: 10rem;
+    right: 15rem;
+
+}
+.container{
+    position: relative;
+    bottom: 10rem;
+    width: 70%;
+    height: 100vh;
+    top: 2rem;
+    background: transparent;
+    backdrop-filter: blur(10%);
+    border-radius: 20px;
+    left: 2rem;
+}

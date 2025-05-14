@@ -1,0 +1,32 @@
+💡 Dynamic Bulb Project
+
+A simple yet interactive **Dynamic Bulb** web app built using | HTML | CSS | JavaScript |. It simulates a real-life bulb that can be turned **ON** and **OFF** with a button click.
+
+
+---
+
+ 📋 Features
+
+- 🟢 Turn the bulb ON  
+- ⚫ Turn the bulb OFF  
+- ✨ Smooth visual transition  
+- 🖥️ Responsive for all devices
+
+---
+
+ 🛠️ Technologies Used
+
+- HTML5 – Basic structure  
+- CSS3 – Styling and transitions  
+- JavaScript – Dynamic control of bulb behavior  
+
+---
+
+ 📂 Project Structure
+
+```bash
+dynamic-bulb/
+├── index.html          # Main HTML file
+├── style.css           # Styling for bulb and buttons
+├── script.js           # Logic to switch bulb on/off
+└── README.file         # Project documentation
